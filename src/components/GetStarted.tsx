@@ -1,5 +1,5 @@
 // Removed unused imports and fixed the 'rows' attribute type issue
-import React, { Component } from "react";
+import { Component } from "react";
 import "aos/dist/aos.css";
 
 class GetStarted extends Component {
