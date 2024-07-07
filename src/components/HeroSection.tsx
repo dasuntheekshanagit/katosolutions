@@ -32,19 +32,19 @@ const HeroSection = () => {
         data-bs-interval="5000"
       >
         <div className="carousel-item">
-          <img src="assets/img/hero-carousel/1.jpg" alt="" />
+          <img src="assets/img/hero-carousel/1.webp" alt="" />
         </div>
         <div className="carousel-item active">
-          <img src="assets/img/hero-carousel/2.jpg" alt="" />
+          <img src="assets/img/hero-carousel/2.webp" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="assets/img/hero-carousel/3.jpg" alt="" />
+          <img src="assets/img/hero-carousel/3.webp" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="assets/img/hero-carousel/4.jpg" alt="" />
+          <img src="assets/img/hero-carousel/4.webp" alt="" />
         </div>
         <div className="carousel-item">
-          <img src="assets/img/hero-carousel/5.jpg" alt="" />
+          <img src="assets/img/hero-carousel/5.webp" alt="" />
         </div>
         <a
           className="carousel-control-prev"

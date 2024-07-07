@@ -39,7 +39,7 @@ const WhyUs = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img src="assets/img/alt-services.jpg" alt="" />
+            <img src="assets/img/alt-services.webp" alt="" />
           </div>
 
           <div
