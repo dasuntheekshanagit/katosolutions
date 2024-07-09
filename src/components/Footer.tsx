@@ -58,21 +58,25 @@ const Footer = () => {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="construction">Construction</a>
+                <a href="/services/construction">Construction</a>
               </li>
               <li>
-                <a href="new-product-development">New Product Development</a>
+                <a href="/services/new-product-development">
+                  New Product Development
+                </a>
               </li>
               <li>
-                <a href="steel-fabrication">Steel Fabrication</a>
+                <a href="/services/steel-fabrication">Steel Fabrication</a>
               </li>
               <li>
-                <a href="electrical-and-electronic-repair">
+                <a href="/services/electrical-and-electronic-repair">
                   Electrical and Electronic Repair
                 </a>
               </li>
               <li>
-                <a href="ac-and-refrigeration">A/C and Refrigeration</a>
+                <a href="/services/ac-and-refrigeration">
+                  A/C and Refrigeration
+                </a>
               </li>
             </ul>
           </div>
@@ -81,20 +85,20 @@ const Footer = () => {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="comprehensive-maintenance">
+                <a href="/services/comprehensive-maintenance">
                   Comprehensive Maintenance
                 </a>
               </li>
               <li>
-                <a href="bio-medical-equipment-repair">
+                <a href="/services/bio-medical-equipment-repair">
                   Bio Medical Equipment Repair
                 </a>
               </li>
               <li>
-                <a href="finishing-services">Finishing Services</a>
+                <a href="/services/finishing-services">Finishing Services</a>
               </li>
               <li>
-                <a href="demolish-services">Demolish Services</a>
+                <a href="/services/demolish-services">Demolish Services</a>
               </li>
             </ul>
           </div>
