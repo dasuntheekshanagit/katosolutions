@@ -1,22 +1,15 @@
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import NavBar from "./components/NavBar";
-import StatsCounter from "./components/StatsCounter";
-import Services from "./components/Services";
-import WhyUs from "./components/WhyUs";
-import GetStarted from "./components/GetStarted";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
-    <>
-      <NavBar page="home" />
-      <HeroSection />
-      <StatsCounter />
-      <WhyUs />
-      <Services />
-      <GetStarted />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
+      </Routes>
+    </Router>
   );
 }
 
