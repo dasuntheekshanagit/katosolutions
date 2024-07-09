@@ -1,3 +1,4 @@
+import CommentsSection from "../components/CommentsSection";
 import Footer from "../components/Footer";
 import GetStarted from "../components/GetStarted";
 import HeroSection from "../components/HeroSection";
@@ -15,6 +16,7 @@ const Home = () => {
       <WhyUs />
       <Services />
       <GetStarted />
+      <CommentsSection />
       <Footer />
     </>
   );
