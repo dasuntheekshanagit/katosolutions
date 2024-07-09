@@ -2895,3 +2895,91 @@ section,
   font-size: 14px;
 }
 
+/* Review Form */
+#custom-get-started .section {
+  padding: 60px 0;
+}
+
+#custom-get-started .custom-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.06);
+}
+
+.custom-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.custom-form-container {
+  flex: 1;
+}
+
+.custom-php-email-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.06);
+}
+
+.custom-php-email-form .custom-form-control {
+  margin-bottom: 15px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.custom-php-email-form .custom-form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.custom-php-email-form textarea {
+  resize: none;
+}
+
+.custom-php-email-form .custom-btn {
+  /* background: #007bff; */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  width: 30%;
+  /* border-radius: 50px; */
+}
+
+.custom-php-email-form .custom-btn:hover {
+  background: #0056b3;
+}
+
+.custom-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-rating-container label {
+  margin-right: 10px;
+}
+
+.custom-message {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.custom-message h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .custom-content-wrapper {
+    flex-direction: column;
+  }
+}
