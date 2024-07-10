@@ -113,7 +113,7 @@ const GetStarted = () => {
                     type="text"
                     className="form-control"
                     name="phone"
-                    placeholder="Phone"
+                    placeholder="Contact No"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required

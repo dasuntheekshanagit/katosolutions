@@ -89,7 +89,9 @@ const NavBar = ({ page }: Props) => {
               </a>
             </li> */}
             <li>
-              <a href="/contact-us">Contact Us</a>
+              <a href="/contact-us" className={getNavLinkClass("contact")}>
+                Contact Us
+              </a>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
