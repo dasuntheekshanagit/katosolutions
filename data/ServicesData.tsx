@@ -66,8 +66,8 @@ const ServicesData = [
   },
   {
     id: "finishing-services",
-    name: "Finishing",
-    title: "Finishing",
+    name: "Finishing Services",
+    title: "Finishing Services",
     image: "/assets/img/services/services.webp",
     description:
       "High-quality finishing services to add the perfect final touch to your construction projects. Our expert team ensures a polished and professional look, enhancing the overall appeal and functionality of your spaces.",
@@ -75,8 +75,8 @@ const ServicesData = [
   },
   {
     id: "demolish-services",
-    name: "Demolish",
-    title: "Demolish",
+    name: "Demolish Services",
+    title: "Demolish Services",
     image: "/assets/img/services/services.webp",
     description:
       "Safe and efficient demolition services to prepare sites for new developments. Our team ensures the controlled removal of structures with minimal disruption, following strict safety protocols and environmental standards.",
