@@ -4,7 +4,6 @@ import AboutUs from "./pages/AboutUs";
 import OurServices from "./pages/OurServices";
 import ServiceDetailsPage from "./pages/ServiceDetailsPage";
 import ContactUs from "./pages/ContactUs";
-// import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (

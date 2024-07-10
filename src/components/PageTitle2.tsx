@@ -14,10 +14,10 @@ const PageTitle2 = ({ title }: Props) => {
   return (
     <div
       className="page-title"
-      style={{ backgroundImage: "url(assets/img/page-title-bg.webp)" }}
+      style={{ backgroundImage: "url(/assets/img/page-title-bg.webp)" }}
     >
       <div className="container position-relative">
-        <h1>{title}</h1>
+        <h1>{service.title}</h1>
         <nav className="breadcrumbs">
           <ol>
             <li>
