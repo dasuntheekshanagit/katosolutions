@@ -74,7 +74,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: rgba(0, 0, 0, 0.5);
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -649,7 +649,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 60px 5vw;
   scroll-margin-top: 92px;
   overflow: clip;
 }
@@ -659,6 +659,7 @@ section,
   section,
   .section {
     scroll-margin-top: 76px;
+    padding: 60px 5vw;
   }
 }
 
@@ -1064,6 +1065,7 @@ section,
   height: 48px;
   position: relative;
   margin-bottom: 50px;
+  z-index: 1;
 }
 
 .services .service-item .icon i {
@@ -1081,10 +1083,18 @@ section,
   width: 100%;
   background: color-mix(in srgb, var(--heading-color), transparent 95%);
   border-radius: 50px;
-  z-index: 1;
+  z-index: 0;
   top: 10px;
   right: -20px;
   transition: 0.3s;
+}
+
+.icon-image {
+  width: 40px; 
+  height: 40px; 
+  object-fit: contain; 
+  z-index: 10;
+  position: relative;
 }
 
 .services .service-item h3 {
@@ -1716,7 +1726,7 @@ section,
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter .stats-item {
-  box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 92%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 30px;
 }
 
@@ -2883,4 +2893,97 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+/* Review Form */
+#custom-get-started .section {
+  padding: 60px 0;
+}
+
+#custom-get-started .custom-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.06);
+}
+
+.custom-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.custom-form-container {
+  flex: 1;
+}
+
+.custom-php-email-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.06);
+}
+
+.custom-php-email-form .custom-form-control {
+  margin-bottom: 15px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.custom-php-email-form .custom-form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.custom-php-email-form textarea {
+  resize: none;
+}
+
+.custom-php-email-form .custom-btn {
+  /* background: #007bff; */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  width: 30%;
+  /* border-radius: 50px; */
+}
+
+.custom-php-email-form .custom-btn:hover {
+  background: #0056b3;
+}
+
+.custom-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-rating-container label {
+  margin-right: 10px;
+}
+
+.custom-message {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.custom-message h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .custom-content-wrapper {
+    flex-direction: column;
+  }
+}
+
+.services-list a.active {
+  color: red; 
 }
