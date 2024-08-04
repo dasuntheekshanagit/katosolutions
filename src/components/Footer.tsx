@@ -8,13 +8,13 @@ const Footer = () => {
               <span className="sitename">UpConstruction</span>
             </a>
             <div className="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
+              <p>KATO Solutions</p>
+              <p>Kalupahana, Poruwedanda</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+                <strong>Phone:</strong> <span>+94 74 220 7362</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@example.com</span>
+                <strong>Email:</strong> <span>contact@katosolutions.lk</span>
               </p>
             </div>
             <div className="social-links d-flex mt-4">

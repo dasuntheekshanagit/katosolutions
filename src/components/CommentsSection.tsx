@@ -11,12 +11,12 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const testimonialsData = [
   {
     id: 1,
-    image: "assets/img/testimonials/testimonials-1.jpg",
-    name: "Saul Goodman",
-    role: "Ceo & Founder",
-    rate: 2,
+    image: "assets/img/testimonials/R.png",
+    name: "Widuranga Gunawardana",
+    role: "Consulting Engineer",
+    rate: 5,
     quote:
-      "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+      "KATO Solutions” had excellent follow through, great communication, clear understanding of the progression of the project. I would highly recommend them. I had no doubt they would make the best choice for me when I could not be there. They are one of the most highly organized companies I have ever dealt with. Well worth working with people who do things right. They had excellent communication– 6 stars! “KATO solutions have overall High quality workmenship .You get what you pay and also is well worth it.”👷‍♀️",
   },
   {
     id: 2,
@@ -36,15 +36,15 @@ const testimonialsData = [
     quote:
       "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
   },
-  {
-    id: 2,
-    image: "assets/img/testimonials/testimonials-2.jpg",
-    name: "Sara Wilsson",
-    role: "Designer",
-    rate: 4,
-    quote:
-      "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
-  },
+  // {
+  //   id: 2,
+  //   image: "assets/img/testimonials/testimonials-2.jpg",
+  //   name: "Sara Wilsson",
+  //   role: "Designer",
+  //   rate: 4,
+  //   quote:
+  //     "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+  // },
   // Add more testimonials as needed
 ];
 
@@ -53,10 +53,7 @@ const CommentsSection = () => {
     <section id="testimonials" className="testimonials section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
-        </p>
+        <p>What our clients say about us</p>
       </div>
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <Swiper
